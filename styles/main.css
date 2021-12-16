@@ -33,6 +33,25 @@ body {
     opacity: 1;
 }
 
+/* style for Exam button */
+.block {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #05b8ff;
+    margin: 20px 0 0 0;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color: #ffffdc;
+    color: #302f31
+}
+
+
 /* main colors */
 .white {
     color: #ffffdc;
