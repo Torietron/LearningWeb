@@ -20,7 +20,6 @@ const Answer = {
 var dice, seconds;
 
 function Exam(){
-    let user_input;
     let score = 0;
     let time = new Date;
     seconds = time.getSeconds() + 1;
