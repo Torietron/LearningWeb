@@ -1,0 +1,42 @@
+/* main styles */
+body {
+    background: #302f31;
+    color: #ffffffdc;
+    padding: 0 20px;
+    font: 100% "Open Sans", Georgia;
+}
+
+/* styles for hover */
+.hover-text p {
+    border: 1px solid #05b8ff;
+    font-size: 0.8em;
+    margin: 18px 0 0 0;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 150px;
+}
+.hover-text .show-text{
+    visibility: hidden;
+    opacity: 0;
+    margin: 5px 0 0 0;
+    padding: 0 40px;
+    -moz-transition: visibility 1s, opacity 1s;
+    -webkit-transition: visibility 1s, opacity 1s;
+    transition: visiblity 1s, opacity 1s;
+}
+.hover-text:hover p{
+    outline: 1px solid #ffffdc;
+}
+.hover-text:hover .show-text{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* main colors */
+.white {
+    color: #ffffdc;
+}
+.lightgreen {
+    color: #63d4cbdc
+}
